@@ -41,8 +41,7 @@ def encode(password_str):
 
 
 def decode(password_str):
-    return ""
-    # return "".join(str((int(char) - 3) % 10) for char in password_str)
+    return "".join(str((int(char) - 3) % 10) for char in password_str)
 
 
 if __name__ == "__main__":
